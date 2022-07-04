@@ -2,6 +2,9 @@
 
 Inventory management of a library, written in Flutter.
 
+<a href="https://ibb.co/WcBc03R"><img src="https://i.ibb.co/NLWLr3G/Screenshot-main-page.png" width="250" alt="Screenshot-main-page" border="0"></a>
+<a href="https://ibb.co/W0pGg8V"><img src="https://i.ibb.co/ypBdWv4/Screenshot-detail-page.png" width="250" alt="Screenshot-detail-page" border="0"></a>
+
 ## How to use it
 Retrieve the dependencies with the following command:
 ```terminal
