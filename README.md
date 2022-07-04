@@ -2,15 +2,22 @@
 
 Inventory management of a library, written in Flutter.
 
-## Getting Started
+## How to use it
+Retrieve the dependencies with the following command:
+```terminal
+fvm flutter pub get
+```
 
-This project is a starting point for a Flutter application.
+Then run the build_runner to automatically generate support files:
+```terminal
+fvm flutter pub run build_runner build --delete-conflicting-outputs 
+```
 
-A few resources to get you started if this is your first Flutter project:
+Run the application and.. enjoy it!
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Architecture
+* BLoC pattern
+* Dependency Injection with Provider
+* Simplified with Freezed
+* Supports both Portrait and Landscape orientations
+* Unit tests
